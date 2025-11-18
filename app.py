@@ -3,14 +3,14 @@ import tempfile
 import os
 from pathlib import Path
 
-from crypto_files.key_management import (
+from src.crypto_files.key_management import (
     DEFAULT_KEY_DIR,
     DEFAULT_KEY_NAME,
     init_keys,
     load_private_key,
     load_public_key,
 )
-from crypto_files.crypto_core import encrypt_file, decrypt_file, inspect_metadata
+from src.crypto_files.crypto_core import encrypt_file, decrypt_file, inspect_metadata
 
 
 # -------------------------------------------------------------------
