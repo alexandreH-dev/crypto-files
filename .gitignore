@@ -1,0 +1,94 @@
+# Python caches and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+coverage.xml
+htmlcov/
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+*.env
+secrets/
+keys/
+
+# Private/secret key files (common extensions)
+*.pem
+*.key
+*.der
+*.jks
+*.p12
+*.pfx
+*.csr
+*.jwk
+
+# Logs
+*.log
+
+# Compiled C extensions
+*.so
+*.pyd
+
+# Type checkers / caches
+.mypy_cache/
+.pyre/
+.pytype/
+
+# Misc
+.eggs/
+*.egg-info/
+
+# Keep local-specific files out
+local_settings.py
+

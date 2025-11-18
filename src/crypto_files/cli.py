@@ -26,9 +26,7 @@ def human_size(n: int) -> str:
 
 def cmd_init_keys(args):
     priv, pub = init_keys(Path(args.key_dir), args.key_name)
-    print(f"✔ Chaves geradas:
-  Privada: {priv}
-  Pública: {pub}")
+    print(f"✔ Chaves geradas:\nPrivada: {priv}\nPública: {pub}")
 
 
 def cmd_encrypt(args):

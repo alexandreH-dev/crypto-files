@@ -8,7 +8,7 @@ from cryptography.hazmat.primitives.asymmetric import rsa
 from cryptography.hazmat.primitives import serialization
 from cryptography.hazmat.backends import default_backend
 
-DEFAULT_KEY_DIR = Path.home() / ".crypto_files" / "keys"
+DEFAULT_KEY_DIR = Path.home() / "keys"
 DEFAULT_KEY_NAME = "id_rsa"
 
 
