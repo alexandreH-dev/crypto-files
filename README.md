@@ -28,11 +28,14 @@ python -m venv .venv && source .venv/bin/activate  # (Windows: .venv\Scripts\act
 # 2) instalar dependências
 pip install -r requirements.txt
 
-# 3) executar a CLI (duas opções)
+# 3) rodar via CMD
 python -m crypto_files.cli --help
 # ou, se instalar via pyproject (opcional)
 pip install -e .
 crypto-files --help
+
+# 4) rodar via interface
+streamlit run app.py
 ```
 
 ## 🔑 Geração de chaves
