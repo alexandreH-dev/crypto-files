@@ -13,6 +13,7 @@ DEFAULT_KEY_NAME = "id_rsa"
 
 
 def _key_paths(key_dir: Path = DEFAULT_KEY_DIR, key_name: str = DEFAULT_KEY_NAME):
+    print(f"Generating key paths in directory: {key_dir} with base name: {key_name}")
     priv = key_dir / f"{key_name}_priv.pem"
     pub = key_dir / f"{key_name}_pub.pem"
     return priv, pub
